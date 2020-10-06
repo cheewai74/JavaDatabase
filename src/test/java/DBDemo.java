@@ -18,7 +18,7 @@ public class DBDemo {
 			
 			// Connecting to a database
 			System.out.println("Connecting to a database");
-			conn = DriverManager.getConnection("jdbc:mariadb://127.0.0.1", "root", "password");
+			conn = DriverManager.getConnection("jdbc:mariadb://127.0.0.1/nation", "root", "root");
 			System.out.println("Connecting to a database successfully");
 			
 			// Execute a query
