@@ -13,7 +13,8 @@ public class MakingTheConnection {
 			Class.forName("org.mariadb.jdbc.Driver");
 			
 			// Defining the datasource for the driver
-			String sourceURL = "jdbc:mariadb://127.0.0.1/nation";
+			//String sourceURL = "jdbc:mariadb://127.0.0.1/nation";
+			String sourceURL = "jdbc:mariadb://127.0.0.1/northwind";
 			
 			// Create a connection through hte DriverManager
 			Connection databaseConnection =
